@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!--
+
+        Blog Exercise
+
+Home Page content
+Create a page with two columns
+Width of the left column is 300px
+Right column stretches to cover the rest of the screen
+
+Left column content
+Logo image with height set to 250px
+Under the logo, there should be a list of links
+One of the links should be "Contact"
+The link should link to "./contact.html" page
+
+
+Right column content
+There should be two posts in form of groups
+The first group content:
+Title
+Embedded YouTube video
+The second group content:
+Title
+Video (HTML5) that you will find on the web
+
+Contact Page content
+Embedded Google Map on the page
+Link for getting back to the “Home” page
+
+    -->
+    <fieldset><legend style="text-align: center;">
+        <h1>Home page content</h1>
+    </legend>
+    <table width="60%" border="4px solid black">
+    
+        <tr>
+            <td width="400px">
+                <div>
+    
+                    <img src="https://www.pinclipart.com/picdir/middle/531-5319772_nikola-tesla-portrait-icons-png-nikola-tesla-logo.png"
+                        height="250px">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="biography.html">Biography</a></li>
+                        <li><a href="./contact/contact.html" target="_blank">Contact</a></li>
+                    </ul>
+                    </div>
+                    </td>
+                    
+                    <td>
+                        <fieldset>
+                            <legend><b>First group content:</b></legend>
+                            <h2>Funny dogs</h2>
+                            <iframe width="400" height="250" src="https://www.youtube.com/embed/28xjtYY3V3Q" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
+                        </fieldset>
+                    
+                    
+                        <fieldset>
+                            <legend><b>Second group content:</b></legend>
+                            <h2>Funny cat</h2>
+                    
+                            <video width="400" height="250" controls>
+                                <source src="cat.mp4" type="video/mp4">
+                                <source src="cat.ogg" type="video/ogg">
+                    
+                            </video>
+                        </fieldset>
+                    </td>
+                    
+                    </tr>
+                    
+                    </table>
+                    </fieldset><br>
+                    <a href="contactPage.html" target="_blank">Go to Contact Page</a>
+                    </body>
+                    
+                    </html>
