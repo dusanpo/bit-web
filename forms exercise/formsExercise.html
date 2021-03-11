@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+  
+</head>
+<body>
+    <!--
+        HTML5 elements (required, date, email, url, search)
+Create a form for Facebook posts scheduling
+The page should have one form that consists of elements, labels and a submit button
+It should have one required text field (Name)
+A field for date on which the post should be created
+A URL field for a website that will be used for the post
+A field that contains an email address to which an email is sent after publishing the post
+   -->
+   <form>
+       <h1>Sign up</h1>
+       <label for = "uname">username:</label>
+       <input type = "text" name = "uname" size = "20" maxlength="30"><br><br>
+       <label for = "pass">password:</label>
+       <input type = "password" name = "pass" size = "" maxlength="30">
+       <input type = "submit" value = "Submit"><br><br>
+       <a href = "forgotPass.html" target = "_blank">forgot password</a>
+   </form>
+   <br><br>
+
+   <form>
+       <h1>Create a new account</h1>
+    <fieldset style = "width: 20%">
+        <legend><b><em>Personal</em>:</b></legend>
+        <label for = "fname">First name:</label>
+        <input type = "text" id = "fname" name = "fname" required><br><br>
+        <label for = "lname">Last name:</label>
+        <input type = "text" id = "lname" name = "lname" required><br><br>
+        <label for = "email">Email:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type = "email" id = "email" name = "email"><br><br>
+        <label for = "birthday">Birthday:</label>&nbsp;&nbsp;&nbsp;
+        <input type = "date" id = "birthday" name = "birthday"><br><br>
+        <input type = "submit" value = "Submit">
+    </fieldset> 
+</form>
+<br><br>
+<form action = "http://wwe.example.org/profile.php">
+    <p><b>Website address:</b></p>
+    <input type = "url" name = "website">
+    <input type = "submit" value = "Submit">
+</form><br><br>
+
+
+<form action = "http://www.example.com/bookings/" method="POST">
+<label for = "date"><b>Date:</b></label><br>
+<input type = "date" name = "date">
+<input type = "submit" value = "Submit">
+</form><br><br>
+
+<form action = "http://www.example.org/search.php"> 
+    <fieldset style = "width:13%">
+    <label for = "search"><b>Search:</b></label><br>
+    <input type = "search" name = "search" placeholder="Enter keyword">
+    <input type = "submit" value = "Search">
+    </fieldset>
+</form>
+</body>
+</html>
