@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+   p {
+       color: darkturquoise;
+       background-color: dimgrey;
+       opacity: 0.5;
+
+   }
+   .dark {
+       color: rgb(0, 206, 209);
+       background-color: rgba(105,105,105,0.5);
+   }
+   .hex {
+       color: #00ced1;
+       background-color: #696969;
+   }
+   .hsl{
+    color :hsl(181, 100%, 41%);
+   }
+
+   body{
+       background-color :rgb(157, 188, 143);   
+   }
+   #div1{
+
+       background: #00ced1;
+       opacity: 0.5;
+   }
+   #div2{
+       background:rgba(255,255,0,0.9);
+   }
+   .tab{
+       background-color:aliceblue;    
+   }
+   .tab2{
+       background-color: hotpink;
+   }
+   .tab3{
+       background-color: lawngreen;
+   }
+   .tab4{
+       background-color: lightseagreen;
+   }
+   .tab5{
+       background-color: maroon;
+   }
+   .table{
+     border: 2px solid black;
+     width: 50%; 
+     height: 300px;
+   }
+    </style>
+</head>
+<body>
+  <!--
+      Color Palette Transformation
+Create three paragraphs using “lorem ipsum” text
+Use “DarkTurquoise ” as text color for the first paragraph 
+Transform “DarkTurquoise” color to RGB color palette 
+Use the result of transformation to set the color of the second paragraph
+Transform RGB color palette value to HEX color palette
+Use a HEX value to set the text color of the third paragraph
+
+
+
+Color VS Background Color
+Use the structure created in the previous exercise
+Try to set different combinations of background and text colors on paragraphs
+
+
+
+Opacity VS RGBA
+Use the previously created HTML structure
+Apply 50% opacity to the first element
+Set bg-color with 50% transparency (rgba) on the second element
+Add picture to the div element that has opacity defined
+Add picture to the div element that has rgba defined
+
+
+
+Additional
+Create a table with five columns and three rows
+Each column should have different background color
+Colors of the first two columns should be defined using the following color names:
+AliceBlue
+HotPink
+
+  -->  
+<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non excepturi nisi commodi quisquam quae laudantium aut repellendus recusandae deleniti, 
+    sint architecto eligendi,
+     quidem dolore fugiat nam dolores eius maiores soluta.</p>
+<p class = "dark">
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima, dolores. Accusantium expedita iure magnam iusto voluptatum voluptas, impedit ut neque, 
+    esse dolor eos dolores aliquid fugiat possimus. 
+    Tempora, reiciendis sequi!
+</p>
+   <p class = "hex">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo quisquam inventore accusantium consectetur beatae vero quae quam voluptatibus repudiandae incidunt 
+    cum non architecto expedita rerum doloremque ea,
+     aliquid corporis. Deleniti?</p>
+     <p class = "hsl">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo quisquam inventore accusantium consectetur beatae vero quae quam voluptatibus repudiandae incidunt 
+        cum non architecto expedita rerum doloremque ea,
+         aliquid corporis. Deleniti?</p>
+
+     <div id = "div1">
+
+        <img src = "bart.gif" alt = "bart"> 
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur fuga doloribus odit expedita, officiis quae ipsa harum consequuntur dolorum ea
+         molestias minus error laborum velit reprehenderit 
+         quod vel veniam vero?
+     </div>
+     <div id = "div2">
+
+        <img src = "bart.gif" alt = "bart"> 
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur fuga doloribus odit expedita, officiis quae ipsa harum consequuntur dolorum ea
+         molestias minus error laborum velit reprehenderit 
+         quod vel veniam vero?
+     </div>
+<br>
+<table class = "table" >
+    <tr>
+        <td class = "tab"></td>
+        <td class = "tab2"></td>
+        <td class = "tab3"></td>
+        <td class = "tab4"></td>
+        <td class = "tab5"></td>
+    </tr>
+    <tr>
+        <td class = "tab"></td>
+        <td class = "tab2"></td>
+        <td class = "tab3"></td>
+        <td class = "tab4"></td>
+        <td class = "tab5"></td>
+    </tr>
+    <tr>
+        <td class = "tab"></td>
+        <td class = "tab2"></td>
+        <td class = "tab3"></td>
+        <td class = "tab4"></td>
+        <td class = "tab5"></td>
+    </tr>
+</table>
+
+
+</body>
+</html>
