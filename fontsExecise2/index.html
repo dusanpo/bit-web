@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fonts</title>
+    <link rel = "stylesheet" type = "text/css" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,700;1,400&display=swap" rel="stylesheet">
+   
+</head>
+<body>
+  <!--
+      Browser-Safe Font Family
+Create a page with multiple paragraphs
+Apply different fonts to each of them
+Add a quote to each paragraph and define a different font for each quote
+
+
+Font size/weight/style
+Use HTML/CSS from the previous example
+Apply global font size/weight
+Override the global font for the first paragraph (apply some other font)
+Apply “oblique” style to the text in the second paragraph
+Create a span element somewhere inside the third paragraph
+Increase weight of the text inside the span and make it italic
+
+
+@font-face
+Take some time googling and find websites that provide fonts
+
+Downloading and including a font:
+Go to Google Fonts and download some font
+Include that font on page
+Apply the font to first paragraph
+
+Font via url from remote server:
+Go to Google Fonts and get the link for the font
+Include that font on the page using a link
+Apply the font to the page title
+
+
+
+
+Uppercase & Lowercase/Underline & Strikethrough
+Create a page with two paragraphs
+Use CSS to transform all the letters in the first paragraph to uppercase and underline them
+Transform the text in the second paragraph to lowercase and apply strike to it
+
+
+
+Line/Word/Letter Spacing (Challenge for students)
+Create a page with three paragraphs
+Spacing between characters in the first paragraph should be 5px
+Line height of the second paragraph is 200% of the original line height
+The third paragraph should not be styled
+
+
+Alignment
+Align text in the previous examples:
+First paragraph to the left
+Second to the right
+Third should be centered
+
+
+Shadow/Pseudo-Classes
+Create a page with a list of links to some websites
+
+Shadow
+Set the default color for that list
+Add text shadow to text of all the list elements
+
+Pseudo-Classes
+Each link that is not clicked yet should be red
+Each visited link should be black
+Hovering over text should make it green
+Clicking and holding the link should make it blue
+
+  -->
+
+  <h1>Font size/weight/style & @font-face</h1>
+  <p class = "fonts">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+       Quod natus vitae voluptatum exercitationem non quas dolor minus odio placeat maxime vero eius rerum sed quaerat fuga cum,
+       cupiditate ratione assumenda?
+       <blockquote cite="https://en.wikipedia.org/wiki/Serbia" class = "qoute">
+          Continuously inhabited since the Paleolithic Age,
+          the territory<br> of modern-day Serbia faced Slavic migrations to
+          Southeastern Europe in the 6th century
+      </blockquote></p>
+       <p class = "fonts1">
+           Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Omnis harum corporis sapiente minima possimus nulla sint illo odit consectetur, eos similique fugiat aliquid molestias 
+           quae cumque asperiores laborum, earum culpa.
+           <blockquote cite="https://en.wikipedia.org/wiki/Serbia" class = "qoute">
+              Continuously inhabited since the Paleolithic Age,
+              the territory<br> of modern-day Serbia faced Slavic migrations to
+              Southeastern Europe in the 6th century
+          </blockquote>
+       </p>
+       <p class = "fonts2">
+           Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum asperiores
+           <span class = "text">
+               Adipisicing elit. Dicta doloremque 
+               nesciunt enim velit, voluptas numqua
+               m illo praesentium sint animi reiciendis dolore eaque blanditiis quia eum odio incidunt nobis perferendis quam.
+           </span>
+            assumenda ipsum facilis, saepe fugit adipisci ad omnis, molestiae aspernatur voluptatem natus numquam, 
+           cumque perspiciatis dignissimos eveniet reprehenderit ipsam harum.
+           <blockquote cite="https://en.wikipedia.org/wiki/Serbia" class = "qoute">
+              Continuously inhabited since the Paleolithic Age,
+              the territory<br> of modern-day Serbia faced Slavic migrations to
+              Southeastern Europe in the 6th century
+          </blockquote>
+       </p>
+      <br>
+
+    <h1>Uppercase & Lowercase/Underline & Strikethrough</h1>
+
+ <p class = "up">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam qui repellendus quis,
+      dignissimos minima repudiandae adipisci commodi vitae ipsa sequi non atque odio impedit, 
+      animi aliquam sapiente necessitatibus, facilis perferendis?</p>
+      <p class = "line">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae sunt odit itaque asperiores tempora sint. Dolorum, cum natus.
+        Minus voluptate saepe consequuntur in, necessitatibus exercitationem consequatur fugiat esse cupiditate maiores.
+      </p>
+      <br>
+      <h1>Line/Word/Letter Spacing & Alignment</h1>
+      <p class = "spacing">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+           Delectus quos dolorum saepe, totam officiis quibusdam neque repellat fuga, ex impedit incidunt architecto hic! Facere eaque,
+           molestiae ullam praesentium perspiciatis provident.</p>
+      <p class = "height">Lorem ipsum dolor sit, amet consectetur adipisicing elit.<br> Illum modi
+           necessitatibus dolor, quas error rem sunt corrupti libero est nisi,<br> magni voluptates 
+          aperiam totam ipsum itaque minima incidunt, iusto ullam!</p>
+      <p class = "align">Lorem ipsum dolor sit, amet consectetur adipisicing elit.<br> Perferendis praesentium molestiae sed soluta?<br> 
+          Enim cum harum mollitia consequuntur placeat vel architecto, rem ratione laboriosam aliquid animi optio esse, doloribus earum?</p>
+          <br>
+          <h1>Shadow/Pseudo-Classes</h1>
+          <ul style="list-style-type:none;" class = "b">
+            <li><a href = "http://www.google.rs" target="_blank">Link to Google</a></li><br>
+            <li><a href = "https://www.wikipedia.org/" target="_blank">Link to Wikipedia</a></li><br>
+            <li><a href = "https://www.facebook.com/" target="_blank">Link to Facebook</a></li>
+          </ul> 
+          <br> 
+</body>
+</html>
