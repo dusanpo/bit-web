@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         .prviParagraf{
+             display:inline-block;
+     background-color: yellow;
+     width:400px;
+     height:500px;
+     max-width: 300px;
+     overflow: hidden;
+     margin-right: 20px;
+
+ }
+  .drugiParagraf{
+      display:inline-block;
+      background-color: red;
+      width:400px;
+      height:300px;
+      max-height: 200px;
+      margin-right: 20px;
+  }
+  div{
+      
+      display:flex;
+      flex-wrap:nowrap;
+  }
+  .boja{
+      background-color: yellow;
+  }
+  .prvi{
+      display:inline-block;
+      border-width: 5px;
+      border-style: dotted;
+      border-color: red;
+      /*padding: 50px;*/
+      width: 300px;
+      margin-right: 20px;
+
+  }
+  .drugi{
+      display:inline-block;
+      border-width: 5px;
+      border:solid green;
+      padding-top: 50px;
+      width:400px;
+   margin-right: 20px;
+  }
+  .treci{
+      display:inline-block;
+      border-width: 5px;
+      border-style:dotted;
+      border-color:red;
+      padding: 50px;
+      width:200px;
+      
+      margin-right: 20px;
+      visibility:hidden;
+  }
+  h1{
+      width: 960px;
+      text-align:center;
+      background-color:royalblue;
+    margin-top:50px;
+    margin-bottom: 50px;
+    color:greenyellow;
+    padding: 50px 10px 50px 10px;
+    margin:auto;
+    font-family: cursiveSerif;
+    border-radius: 10% 20% 30% 40%;
+    -webkit-box-shadow: 44px 22px 12px 0px rgba(149, 96, 71, 1);
+    -moz-box-shadow:    44px 22px 12px 0px rgba(149, 96, 71, 1);
+    box-shadow:         44px 22px 12px 0px rgba(149, 96, 71, 1);
+  }
+
+  @font-face{
+    font-family: "cursiveSerif";
+    src: url(CursiveSerif.ttf);
+  }
+    </style>
+</head>
+<body>
+    <!--
+
+        Size
+Create a page containing two paragraphs.
+The first paragraph should have a yellow background
+The second paragraph should have a red background
+Add a lot of text to both of them
+
+Fixed size
+The first paragraph has width of 400px and height of 500px
+The second should have 600px width and 300px height
+Paragraph text should not overflow the box
+
+Dynamic size
+Max width of the first paragraph should be 300px
+Max height of the second one should be 200px
+The first paragraph text should be cut if it's bigger than the box
+The second paragraph text can overflow the paragraph (text can be bigger than the paragraph box)
+
+
+
+
+
+    
+Borders
+Create three paragraphs on the page
+All of them should have a yellow background
+Each paragraph should have a 5px thick border
+The first and the last paragraphs should have red dashed borders
+The middle one should have green solid borders
+
+
+
+
+
+
+
+
+Padding
+Use the previous example or create three new paragraphs with bg color
+Set padding for each paragraph
+The first and the third should have a 50px padding around all sides
+The middle one should have a 50px top padding only
+
+
+Margins
+Use the previous example and add margins to each element
+The first should be 300px wide and should have 50px margins around all sides
+The second should be 400px wide and it should be horizontally centered on the screen
+The third one should be 200px wide and should have a 100px wide left margin
+
+
+Inline/Block Elements
+Transform the structure from the previous exercise
+Each paragraph should have the right margin set to 20px and no padding (0)
+Elements should all be in one row
+
+Hide/Show | Box Shadows | Rounded Corners
+
+Hide/Show 
+Hide the middle paragraph from the previous example
+The third paragraph should be hidden
+
+Box Shadow
+Add a main title on the page using h1 element
+Set width of the title to 960px
+Position the heading box to the center of the page
+The text in the heading should be centered 
+Add top and bottom padding of 50px and do that for the top/bottom margins also
+Define box background color, and font color
+Include some fancy font for the title
+Apply box shadow to the heading box
+
+Rounded Corners
+Round the corners on the heading box (try different radiuses)
+
+
+
+    -->
+<div>
+    <p class = "prviParagraf">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+        Expedita itaque pariatur quas harum blanditiis quam cupiditate obcaecati
+         dolores! Temporibus quia maiores possimus ex veritatis ad animi repudiandae quo tenetur ab!<br>
+         Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos quam consequatur fugit illum impedit 
+         ullam? Quia ad cupiditate
+          est dicta voluptatum soluta odit nostrum iste, ullam consequuntur modi dolorum fugit<br>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, ut nihil labore nulla adipisci voluptate sequi aut iure at error accusantium! Aliquid nemo debitis maiores sapiente earum, aut corrupti error!
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit ad minima impedit quam temporibus asperiores aliquam totam exercitationem consectetur similique, assumenda atque quibusdam? Ut harum cumque in quo! Ea, porro.<br>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor beatae voluptate accusamus possimus ex quaerat nam minus nihil ad fugit magnam, rem consequatur dolorum officia cumque dolores? Eos, inventore quas.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, quia? Perferendis necessitatibus inventore ipsa officiis non minus, exercitationem assumenda. Doloremque alias molestias commodi incidunt nobis vero aliquam laboriosam excepturi accusantium!
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus dignissimos atque beatae. Error temporibus explicabo, ipsa earum ex voluptates maiores ipsum eos vel. Qui velit at iusto porro officia nostrum?
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas unde inventore cumque optio nam eveniet id exercitationem modi amet ex, tempora quae quia officiis aliquid, similique in, et quisquam voluptate.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti voluptas veniam molestias amet ullam ea aut, cum debitis fugit reiciendis officiis laboriosam veritatis porro, magni numquam, ipsam tenetur? Dolores, consequatur.
+      
+    </p>
+    
+    <p class = "drugiParagraf">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+        Esse, doloribus magni? Vitae ex cupiditate nobis repellat nihil dignissimos voluptatibus
+         esse numquam optio nemo aperiam nulla, totam commodi iusto sequi nesciunt?<br>
+         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore fugit vero, repudiandae 
+         eos unde fuga? Odit ullam
+          ipsum nesciunt dolores expedita debitis sunt cum quae dicta autem, totam eaque accusamus?
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita natus, quae explicabo dolor architecto tempore ipsa hic nostrum atque eaque consectetur laborum aliquid rerum nemo ad culpa odit non rem?
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem error dolorum, cumque natus repellat sint exercitationem ratione velit harum. Unde ipsa aut repellendus velit vitae vel, ab sint necessitatibus ullam?
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati iusto rem dolor adipisci est sit et voluptates, laborum voluptatibus quam libero vitae voluptas excepturi, ipsam accusamus recusandae distinctio quod nesciunt.
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores voluptatem consequuntur suscipit eius deserunt numquam! Esse, quaerat ab aperiam maxime magni, dolore earum numquam praesentium consectetur officia sunt tenetur consequuntur.
+    
+    </p>
+    
+    <div class = "boja">
+
+    <p class = "prvi">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure soluta eum illo in ab molestias laudantium, recusandae consequatur placeat ipsum necessitatibus consectetur vel blanditiis quia magni itaque alias est veniam.
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam natus quam, aspernatur eos ipsam, perferendis nobis quidem dolor ducimus non ut voluptate quasi ab dignissimos ex veritatis provident quis animi?
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nihil, vel! Libero autem soluta error mollitia illum quae rerum eligendi corrupti culpa officia, vel animi nemo veritatis perspiciatis, asperiores iure repellendus.
+    </p>
+    <p class = "drugi">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto eveniet error asperiores, distinctio nam, quia cumque nulla deleniti facere impedit porro autem eaque beatae ipsum hic sed soluta provident accusamus!
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt aliquid officia architecto, error dolorem necessitatibus! Quas nulla cum ipsum, labore perspiciatis inventore numquam provident enim non a error sapiente iusto.
+    </p>
+    <p class = "treci">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias, laboriosam modi ex facere hic esse, reiciendis enim distinctio impedit aspernatur tempora perferendis at. Eius sequi dolorem magni perspiciatis? Expedita, dignissimos.
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa distinctio reprehenderit necessitatibus repudiandae ipsum consequatur neque quasi tempore esse laboriosam repellendus, minima architecto rerum aliquam quia provident voluptas voluptatum rem.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora laboriosam neque voluptatibus iste officiis molestias unde error incidunt. Iste optio necessitatibus labore nobis quod numquam atque consectetur laborum nesciunt corrupti!
+    </p>
+    </div>
+</div>
+<br><br>
+<h1>Main title</h1>
+  
+    
+</body>
+</html>
