@@ -1,0 +1,147 @@
+$greenish: #12b998;
+$greyish: #273b4e;
+
+@import "./contact";
+
+
+@font-face {
+    font-family: "Bold";
+    src: url("assets/fonts/Lato-Bold.ttf");
+}
+@font-face {
+    font-family: "BlackLato";
+    src: url("assets/fonts/Lato-Black.ttf");
+}
+h1,
+h3 {
+    text-align: center;
+    color:white;
+    font-family: BlackLato;
+    
+}
+
+.container-fluid{
+    padding: 0;
+ }
+
+  .navbar-brand{
+     font-family: BlackLato;
+ }
+ .nav-link{
+     font-family: BlackLato;
+ }
+  
+  #about2, #about3{
+    padding: 0 5%;
+ }
+  
+  .header, #about{
+    background: $greenish;
+    padding-bottom: 40px;
+ }
+  
+  
+  
+  #navigation, .header-row{
+    background-color: $greyish !important;
+ }
+  
+  a, button {
+    color: white !important;
+ }
+  
+  #about {
+    color: white;
+    text-align: left;
+    padding: 50px 0;
+    font-weight: bold;
+ }
+  
+  #about button{
+    border: white solid 2px;
+    font-size: 0.8rem;
+    box-sizing: content-box;
+ }
+  
+  footer{
+    padding: 30px 0;
+ }
+  
+  #black {
+    color: black !important; 
+  
+  }
+  
+  #portfolio{
+    padding: 70px 0;
+ }
+  
+  img {
+    width: 100%;
+    padding: 5% 0;
+ }
+  
+  footer {
+    background-color: $greyish;
+    color: white;
+ }
+  
+  footer p {
+    text-align: center;
+ }
+  
+ .divider{
+      margin-top: 5px;
+      margin-bottom: 5px;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+}
+ .divider .divider-line {
+      width: 100%;
+      max-width: 100px;
+      height: 4px;
+      background-color: white;
+      border-radius: 2px;
+     
+}
+.divider .divider-icon {
+      color: white !important;
+      font-size: 40px;
+      margin-left: 3px;
+      margin-right:3px;
+}
+.divider .divider-line-black {
+      width: 100%;
+      max-width: 100px;
+      height: 4px;
+      background-color:black;
+      border-radius: 2px;
+  
+}
+.divider .divider-icon-black {
+      color:black !important;
+      font-size: 40px;
+      margin-left: 3px;
+      margin-right:3px;
+}
+.i-wrapp{
+    width: 3rem;
+    height: 3rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+    border-radius: 50%;
+    margin-left: 3px;
+    margin-bottom: 3px;
+  
+}
+
+  
+    
+  
+
